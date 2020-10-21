@@ -1,0 +1,15 @@
+body{
+    background:white;
+}
+.Our_Menu{
+    text-align: center;
+}
+.menu_title{
+    border: 1px solid black;
+    text-align: center;
+}
+.menu_text{
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
