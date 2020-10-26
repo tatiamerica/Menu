@@ -6,20 +6,11 @@ body{
 }
 .menu_container{
     margin: 40px;
-    display: flex;
-    justify-content: space-between;
 }
 .menu_title{
     border: 1px solid #000000;
     text-align: center;
     padding: 5px;
-    position: relative;
-    height: 20px;
-    
-    
-    
-    
-    
 }
 .menu_text{
     border: 1px solid black;
@@ -27,5 +18,4 @@ body{
     padding: 15px;
     background-color: grey;
     margin-bottom: 20px;
-    padding-top: 35px;
 }
