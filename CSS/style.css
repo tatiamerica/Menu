@@ -5,12 +5,10 @@ body{
     text-align: center;
     font-size: 175%;
 }
-.menu_container{
-    margin: 40px;
-}
 .menu_inners{
     display: flex;
     justify-content: space-around;
+    margin: 40px;
 }
 .menu_inner{
     margin: 20px;
@@ -19,9 +17,10 @@ body{
     border: 1px solid #000000;
     padding: 5px;
     float: right;
-    width: 100px;
+    width: 40%;
     text-align: center;
     font-size: 125%;
+    box-sizing: border-box;
     
 }
 .menu_text{
@@ -45,5 +44,10 @@ body{
     }
 .menu_container{
         margin: 0px;
+        
 }
+}
+
+@media (max-width:768px) and (max-width:991) {
+
 }
