@@ -6,7 +6,7 @@ body{
     font-size: 175%;
 }
 .menu_container{
-    margin: 20px;
+    margin: 40px;
 }
 .menu_inners{
     display: flex;
@@ -45,12 +45,4 @@ body{
     display: block;
     margin: 20px;
     }
-.Our_Menu{
-    font-size: 110%;
-}
-.menu_title{
-    font-size: 110%;
-}
-.menu_container{
-    margin: 0px;
 }
