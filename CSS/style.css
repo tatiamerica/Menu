@@ -32,17 +32,18 @@ body{
     padding-top: 45px;
 }
 
-/*Tablet version*/
-@media (min-width:768px) and (max-width:991px) {
-
-   
-}
-}
-
-/*Mobile version*/
 @media (max-width:767px) {
 .menu_inners{
     display: block;
     margin: 20px;
     }
+.Our_Menu{
+        font-size: 110%;
+    }
+.menu_title{
+        font-size: 110%;
+    }
+.menu_container{
+        margin: 0px;
+}
 }
