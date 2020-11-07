@@ -10,17 +10,26 @@ body{
     font-size: 175%;
 }
 
+
 [class*="col-"] {
     border: 1px solid black;
     display: inline-block;
-    
-  }
+    box-sizing: border-box;
+}
+
 .col-3{
     background: grey;
-    padding: 15px;
-    margin: 15px;
+    
+    
 }
 .col-9{
     float: right;
+    width: 20%;
+  
 
+}
+h2{
+    margin: 5px;
+    text-align: center;
+    
 }
