@@ -10,53 +10,17 @@ body{
     font-size: 175%;
 }
 
-.menu_inners{
-    display: flex;
-    justify-content: space-around;
-    margin: 40px;
-}
-.menu_inner{
-    margin: 20px;
-}
-.menu_title{
-    border: 1px solid #000000;
-    padding: 5px;
-    text-align: center;
-    font-size: 125%;
-    box-sizing: border-box;
-    float: right;
-    width: 50%;;
-    
-}
-.menu_text{
+[class*="col-"] {
     border: 1px solid black;
-    text-align: left;
+    display: inline-block;
+    
+  }
+.col-3{
+    background: grey;
     padding: 15px;
-    background-color: grey;
-    padding-top: 45px;
-   
-    
-
-    
-
+    margin: 15px;
 }
-
-@media (max-width:767px) {
-.menu_inners{
-    display: block;
-    margin: 20px;
-    }
-.Our_Menu{
-    font-size: 110%;
-    }
-.menu_title{
-    font-size: 110%;
-    }
-.menu_container{
-    margin: 0px;
-}
-}
-@media (max-width:768px) and (max-width:991px){
-
+.col-9{
+    float: right;
 
 }
