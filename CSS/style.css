@@ -11,9 +11,10 @@ body{
 }
 
 .menu_inners{
-    display: flex;
-    justify-content: space-around;
+    /*display: flex;
+    justify-content: space-around;*/
     width: 100%;
+    margin: 20px;
 }
 .menu_inner{
     margin: 20px;
@@ -40,8 +41,7 @@ body{
 
 @media (max-width:767px) {
 .menu_inners{
-    display: block;
-    margin: 20px;
+   
     }
 .Our_Menu{
     font-size: 110%;
@@ -54,7 +54,8 @@ body{
 }
 }
 @media (max-width:768px) and (max-width:991px){
-
+.menu_inners{
+    width: 100%;
 
 }
 
