@@ -1,18 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
     background:white;
 }
 .Our_Menu{
     text-align: center;
-    font-size: 175%;
+    font-size: 150%;
 }
 
 .menu_inners{
     display: flex;
     justify-content: space-around;
-    margin: 40px;
+    width: 100%;
 }
 .menu_inner{
     margin: 20px;
+    width: 100%;
 }
 .menu_title{
     border: 1px solid #000000;
@@ -30,10 +35,6 @@ body{
     padding: 15px;
     background-color: grey;
     padding-top: 45px;
-   
-    
-
-    
 
 }
 
@@ -56,3 +57,4 @@ body{
 
 
 }
+
